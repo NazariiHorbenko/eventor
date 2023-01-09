@@ -1,0 +1,43 @@
+.email{
+    position: absolute;
+    height: 64px;
+    left: 798px;
+    right: 184px;
+    top: 321px;
+}
+.text-paragraph{
+position: absolute;
+height: 16px;
+left: 0px;
+right: 0px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+letter-spacing: 0.3px;
+text-transform: uppercase;
+color: #5F5F5F;
+}
+input{
+box-sizing: border-box;
+position: absolute;
+width: 550px;
+left: 0px;
+right: 0px;
+top: 32px;
+bottom: -10px;
+background: #FCFDFE;
+border: 1px solid #F0F1F7;
+border-radius: 8px;
+}
+@media (max-width: 1980px){
+    .email{
+        position: absolute;
+        height: 64px;
+        left: 780px;
+        right: 184px;
+        top: 250px;
+    }
+}

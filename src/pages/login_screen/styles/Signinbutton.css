@@ -1,0 +1,42 @@
+.sign-in-btn{
+    position: absolute;
+    width: 488px;
+    height: 52px;
+    left: 798px;
+    top: 595px;
+    
+    background: #062D92;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+@media (max-width: 1980px){
+    .sign-in-btn{
+        position: absolute;
+        width: 488px;
+        height: 52px;
+        left: 810px;
+        top: 504px;
+        
+        background: #062D92;
+        border-radius: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    }
+}

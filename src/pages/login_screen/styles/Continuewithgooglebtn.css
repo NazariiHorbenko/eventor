@@ -1,0 +1,120 @@
+.googlebtn{
+    position: absolute;
+    width: 488px;
+    height: 52px;
+    left: 798px;
+    top: 687px;
+    background: #233142;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+.googleph{
+    position: absolute;
+width: 29px;
+height: 29px;
+left: 846.12px;
+top: 698px;
+background-image: url(./free-icon-google-symbol-2875404.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.already{
+    
+position: absolute;
+width: 310.77px;
+height: 32px;
+left: 889.04px;
+top: 742px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #242424;
+}
+.sign{
+  color: #007E94;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.sign:hover{
+    text-decoration: underline;
+}
+@media (max-width:1920px){
+    .googlebtn{
+        position: absolute;
+        width: 488px;
+        height: 52px;
+        left: 810px;
+        top: 586px;
+        background: #233142;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+    
+        color: #FFFFFF;
+    }
+    .googleph{
+        position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 858.12px;
+    top: 597px;
+    background-image: url(./free-icon-google-symbol-2875404.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    .already{
+        
+    position: absolute;
+    width: 310.77px;
+    height: 32px;
+    left: 901.04px;
+    top: 641px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #242424;
+    }
+    .sign{
+      color: #007E94;
+      font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    }
+    .sign:hover{
+        text-decoration: underline;
+    }
+}

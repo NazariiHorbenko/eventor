@@ -1,0 +1,288 @@
+.for-header{
+position: absolute;
+width: 332px;
+height: 115.73px;
+left: 827px;
+top: 127px;
+}
+.header{
+    position: absolute;
+width: 114px;
+height: 43.04px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+
+color: #000000;
+}
+.divforlogin{
+    position: absolute;
+width: 332px;
+height: 51.65px;
+left: 0px;
+top: 70px;
+
+
+}
+.lh{
+    color: #062D92;
+}
+.lh:hover{
+    text-decoration: underline;
+}
+.foremail{
+    position: absolute;
+    width: 429px;
+    height: 61.21px;
+    left: 0px;
+    top: 200px;
+}
+.emailname{
+    position: absolute;
+left: 0%;
+right: 91.61%;
+top: 0%;
+bottom: 67.33%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.imputforemail{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E2E3EA ;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+.forusername{
+    
+position: absolute;
+width: 429px;
+height: 61.21px;
+left: 0px;
+top: 300px;
+}
+.username{
+    position: absolute;
+left: 0%;
+right: 84.15%;
+top: 0%;
+bottom: 67.33%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.inputforusername{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E2E3EA ;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+.forpassword{
+position: absolute;
+width: 430px;
+height: 61.21px;
+left: 0px;
+top: 400px;
+}
+.password{
+    position: absolute;
+    width: 64px;
+    height: 19.13px;
+    left: 0%;
+    top: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+.inputforpassword{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E2E3EA ;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+.forconfirm{
+    position: absolute;
+    width: 430px;
+    height: 61.21px;
+    left: 0px;
+    top: 500px;
+}
+.confirm{
+    position: absolute;
+    width: 200px;
+    height: 19.13px;
+    left: 0%;
+    top: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+.inputforconfirm{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E2E3EA ;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+}
+.btnregister{
+    position: absolute;
+    width: 429px;
+    height: 50.69px;
+    left: 0px;
+    top: 600px;
+    background-color: #062D92;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.btnwithgoogle{
+    position: absolute;
+    width: 429px;
+    height: 50.69px;
+    left: 0px;
+    top: 680px;
+    background-color: #233142;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+@media (max-width: 1920px){
+    .for-header{
+        position: absolute;
+        width: 332px;
+        height: 115.73px;
+        left: 820px;
+        top: 60px;
+        }
+        .tt{
+            position: absolute;
+            top: 10px;
+        }
+        .header{
+            position: absolute;
+        width: 114px;
+        height: 43.04px;
+        left: 0px;
+        top: 0px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        
+        color: #000000;
+        }
+        .divforlogin{
+            position: absolute;
+        width: 332px;
+        height: 51.65px;
+        left: 0px;
+        top: 50px;
+        
+        
+        }
+        .foremail{
+            position: absolute;
+            width: 429px;
+            height: 61.21px;
+            left: 0px;
+            top: 150px;
+        }
+        .forusername{
+    
+            position: absolute;
+            width: 429px;
+            height: 61.21px;
+            left: 0px;
+            top: 230px;
+            }
+        .forpassword{
+                position: absolute;
+                width: 430px;
+                height: 61.21px;
+                left: 0px;
+                top: 320px;
+             }
+        .forconfirm{
+                position: absolute;
+                width: 430px;
+                height: 61.21px;
+                left: 0px;
+                top: 410px;
+        }
+        .btnregister{
+            position: absolute;
+            width: 429px;
+            height: 50.69px;
+            left: 0px;
+            top: 500px;
+            background-color: #062D92;
+            color: aliceblue;
+            border-radius: 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        } 
+        .btnwithgoogle{
+            position: absolute;
+            width: 429px;
+            height: 50.69px;
+            left: 0px;
+            top: 560px;
+            background-color: #233142;
+            color: aliceblue;
+            border-radius: 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+ }
