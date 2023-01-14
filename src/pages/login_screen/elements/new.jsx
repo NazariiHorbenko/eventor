@@ -5,9 +5,9 @@ import '../styles/Signinbutton.css'
 import '../styles/Email-login.css'
 import { createRef } from 'react';
 import '../styles/Continuewithgooglebtn.css'
-import '../styles/Header.css'
-import '../styles/Remember.css'
-// import Password from './Password';
+import { Link } from 'react-router-dom';
+import '../styles/new.css'
+
 
 const Neww = props => {
 let checklogin = React.createRef();
@@ -31,13 +31,13 @@ let workwithuser = () =>{
     return (
         <div>
                <div>
-                <header className='header'>Login to your account</header>
+                <header className='headerlogin'>Login to your account</header>
             </div>
-            <div className='email'>
+            <div className='emaillogin'>
                 <p className='text-paragraph'>email or username</p>
                 <input ref={checklogin} type="text" placeholder='Email adress' />
             </div>
-                <div className='password'>
+                <div className='passwordlogin'>
                <p className='text-paragraph'>Password</p>
                 <input ref={checkpassword} type="text" placeholder='Password' /> 
             </div>
@@ -45,12 +45,11 @@ let workwithuser = () =>{
             <div>
                 <button className='googlebtn'>Continue with google </button>
                 <div className='googleph'></div>
-                <div className='remember'>
+                <div className='rememberlogin'>
                 <input type="checkbox" className='input-check'/>
-                <p className='remember-me'>remember me</p>
+                <p className='remember-melogin'>remember me</p>
             </div>
-               <span className='already'>Don't have an account?<span className='sign'>Sign in</span></span> 
-
+              <span className='already'>Don't have an account? <Link to={"/register"} ><span className='sign'>Sign up</span></Link></span> 
             </div>
         </div>
     );

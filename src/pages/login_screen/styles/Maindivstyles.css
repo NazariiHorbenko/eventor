@@ -2,7 +2,7 @@
     display: grid;
    place-items: center;
 } */
-.main-div-box{
+.main-div-box-login{
     position: absolute;
 width: 1306px;
 height: 756px;
@@ -15,7 +15,7 @@ box-shadow: 7px 14px 4px rgba(0, 0, 0, 0.25);
 border-radius: 52px;
 }
 @media (max-width: 1920px) {
-    .main-div-box{
+    .main-div-box-login{
     position: absolute;
     width: 1200px;
     height: 600px;

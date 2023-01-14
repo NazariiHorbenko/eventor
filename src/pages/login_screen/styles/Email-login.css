@@ -1,4 +1,4 @@
-.email{
+.emaillogin{
     position: absolute;
     height: 64px;
     left: 798px;
@@ -32,8 +32,8 @@ background: #FCFDFE;
 border: 1px solid #F0F1F7;
 border-radius: 8px;
 }
-@media (max-width: 1980px){
-    .email{
+@media (max-width: 1920px){
+    .emaillogin{
         position: absolute;
         height: 64px;
         left: 780px;

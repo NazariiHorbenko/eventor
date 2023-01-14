@@ -1,4 +1,5 @@
-.header{position: absolute;
+.headerlogin{
+    position: absolute;
     width: 400px;
     height: 36px;
     left: 798px;
@@ -12,12 +13,12 @@
     
     color: #000000;
     }
-    @media (max-width: 1980px){
-        .header{position: absolute;
+    @media (max-width: 1920px){
+        .headerlogin{position: absolute;
             width: 400px;
             height: 36px;
             left: 780px;
-            top: 148px;
+            top: 100px;   /*148*/
             
             font-family: 'Inter';
             font-style: normal;
@@ -28,7 +29,7 @@
             color: #000000;
             }
     }
-    .password{
+    .passwordlogin{
         position: absolute;
         height: 64px;
         left: 798px;
@@ -62,17 +63,17 @@
         border-radius: 8px;
     }
     
-    @media (max-width: 1980px){
-        .password{
+    @media (max-width: 1920px){
+        .passwordlogin{
             position: absolute;
             height: 64px;
             left: 780px;
             right: 184px;
-            top: 354px;
+            top: 306px;
         }
         
     }
-    .email{
+    .emaillogin{
         position: absolute;
         height: 64px;
         left: 798px;
@@ -105,12 +106,65 @@
     border: 1px solid #F0F1F7;
     border-radius: 8px;
     }
-    @media (max-width: 1980px){
-        .email{
+    @media (max-width: 1920px){
+        .emaillogin{
             position: absolute;
             height: 64px;
             left: 780px;
             right: 184px;
-            top: 250px;
+            top: 202px;
         }
+    }
+    .rememberlogin{
+        position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 814px;
+    top: 480px;
+    
+    }
+    .remember-melogin{    
+    position: absolute;
+    height: 18px;
+    left: 35px;
+    top: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #5F5F5F;
+    }
+    .input-check{
+        box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(95, 95, 95, 0.8);
+    }
+    @media (max-width:1920px){
+        .rememberlogin{
+            position: absolute;
+        width: 139px;
+        height: 20px;
+        left: 802px;
+        top: 361px;
+        
+        }
+        .remember-melogin{    
+            position: absolute;
+            height: 18px;
+            left: 35px;
+            top: 33px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 18px;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+            color: #5F5F5F;
+            }
     }
